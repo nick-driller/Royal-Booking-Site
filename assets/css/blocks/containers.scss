@@ -1,0 +1,103 @@
+.header__container {
+  max-width: 114rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 100%;
+  z-index: 10;
+  transform: translate(-50%, 0%);
+
+  @include breakpoint($notebook1-bp) {
+    max-width: 93rem;
+    padding: 0 1.5rem;
+  }
+
+  @include breakpoint($tablet-bp) {
+    max-width: 69rem;
+    padding: 0 1.5rem;
+  }
+
+  @include breakpoint($mobile-bp) {
+    max-width: 100%;
+    padding: 0;
+    background-color: $white;
+  }
+
+  /*@include breakpoint($mobile-bp) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    transform: translate(0%, 0%);
+    z-index: 11;
+  }*/
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+
+  @include breakpoint($notebook1-bp) {
+    max-width: 93rem;
+    padding: 0 1.5rem;
+  }
+
+  @include breakpoint($tablet-bp) {
+    max-width: 69rem;
+  }
+  /*
+
+  @include breakpoint($notebook2-bp) {
+    max-width: 126.2rem;
+  }
+
+  @include breakpoint($notebook3-bp) {
+    max-width: 90rem;
+  }
+
+  @include breakpoint($tablet-bp) {
+    max-width: 52rem;
+    padding: 0;
+  }
+
+  @include breakpoint($mobile-bp) {
+    max-width: 57rem;
+    padding: 0 2rem;
+  } */
+}
+
+.container__datepicker {
+  max-width: 114rem;
+  margin: 0 auto;
+
+  @include breakpoint($notebook1-bp) {
+    max-width: 93rem;
+    padding: 0 1.5rem;
+  }
+
+  @include breakpoint($tablet-bp) {
+    max-width: 100%;
+    padding: 0;
+  }
+  /*
+
+  @include breakpoint($notebook2-bp) {
+    max-width: 126.2rem;
+  }
+
+  @include breakpoint($notebook3-bp) {
+    max-width: 90rem;
+  }
+
+  @include breakpoint($tablet-bp) {
+    max-width: 52rem;
+    padding: 0;
+  }
+
+  @include breakpoint($mobile-bp) {
+    max-width: 57rem;
+    padding: 0 2rem;
+  } */
+}
